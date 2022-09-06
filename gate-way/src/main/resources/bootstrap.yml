@@ -1,0 +1,12 @@
+server:
+  port: 9002
+spring:
+  application:
+  name: lagou-cloud-gateway
+  cloud:
+    # config客户端配置,和ConfigServer通信，并告知ConfigServer希望获取的配置信息在哪个文件中
+    config:
+      name: lagou-cloud-project  #配置文件名称
+      profile: getway  #后缀名称
+      label: master #分支名称
+      uri: http://localhost:9006    #ConfigServer配置中心地址

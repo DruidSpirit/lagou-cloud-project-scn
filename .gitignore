@@ -1,0 +1,12 @@
+# Project exclude paths
+/common/lagou-service-common/target/
+/config/target/
+/eureka-server-8201/target/
+/EurekaServer8202/target/
+/gate-way/target/
+/lagou-service-code/lagou-service-code-api/target/
+/lagou-service-code/lagou-service-code-impl/target/
+/lagou-service-email/lagou-service-email-api/target/
+/lagou-service-email/lagou-service-email-impl/target/
+/lagou-service-user/lagou-service-user-api/target/
+/lagou-service-user/lagou-service-user-impl/target/

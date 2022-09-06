@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="CompilerConfiguration">
+    <annotationProcessing>
+      <profile default="true" name="Default" enabled="true" />
+      <profile name="Maven default annotation processors profile" enabled="true">
+        <sourceOutputDir name="target/generated-sources/annotations" />
+        <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
+        <outputRelativeToContentRoot value="true" />
+        <module name="lagou-service-code-api" />
+        <module name="gate-way" />
+        <module name="eureka-server-8201" />
+        <module name="lagou-service-user-api" />
+        <module name="eureka-common" />
+        <module name="lagou-service-code-impl" />
+        <module name="lagou-service-common" />
+        <module name="EurekaServer8202" />
+        <module name="lagou-service-user-impl" />
+        <module name="lagou-service-email-impl" />
+        <module name="config" />
+        <module name="web-project-common" />
+        <module name="lagou-service-email-api" />
+      </profile>
+    </annotationProcessing>
+    <bytecodeTargetLevel>
+      <module name="lagou-service-user-aip" target="11" />
+    </bytecodeTargetLevel>
+  </component>
+  <component name="JavacSettings">
+    <option name="ADDITIONAL_OPTIONS_OVERRIDE">
+      <module name="EurekaServer8202" options="-parameters" />
+      <module name="common" options="" />
+      <module name="config" options="-parameters" />
+      <module name="eureka-common" options="-parameters" />
+      <module name="eureka-server-8201" options="-parameters" />
+      <module name="gate-way" options="-parameters" />
+      <module name="lagou-service-code-api" options="-parameters" />
+      <module name="lagou-service-code-impl" options="-parameters" />
+      <module name="lagou-service-common" options="-parameters" />
+      <module name="lagou-service-email" options="" />
+      <module name="lagou-service-email-api" options="-parameters" />
+      <module name="lagou-service-email-impl" options="-parameters" />
+      <module name="lagou-service-user" options="" />
+      <module name="lagou-service-user-aip" options="-parameters" />
+      <module name="lagou-service-user-api" options="-parameters" />
+      <module name="lagou-service-user-impl" options="-parameters" />
+      <module name="web-project-common" options="-parameters" />
+    </option>
+  </component>
+</project>
